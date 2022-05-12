@@ -9,7 +9,8 @@
 }
 
 body{
-    background-image: url(./img/fimdetarde.jpg);
+    background-image: url();
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
