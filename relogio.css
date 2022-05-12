@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Loop:ital@0;1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Zen Loop', cursive;
+    font-weight: 600;
+}
+
+body{
+    background-image: url(./img/fimdetarde.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    padding: 10% 0 35% 0;
+}
+
+.text{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom:5px;
+    border:2px solid white;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 115px;
+    box-shadow: 15px 15px 10px black;
+    transition: 1;
+}
+.text:hover{
+    background-color: rgb(255, 255, 255, 0.6);
+    color: black;
+    border:2px solid rgb(0, 0, 0);
+    
+}
+
+.span{
+    display:flex;
+    justify-content: center;
+}
+
+.span p{
+    padding: 0 6px;
+}
